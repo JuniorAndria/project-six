@@ -1,4 +1,4 @@
-# Project 5
+# Project 6
 
 ## Configuração do Projeto
 
@@ -37,7 +37,7 @@ Este projeto é uma API para gerenciamento de currículos que utiliza Flask, Chr
 
 4. Execute a aplicação:
     ```bash
-    python app.py
+    python secure_resume_api.py
     ```
 
 A aplicação estará disponível em `http://localhost:5000`.
@@ -48,7 +48,7 @@ A aplicação estará disponível em `http://localhost:5000`.
 
 - Endpoint: `POST /upload_pdf`
 - Descrição: Permite o upload de um arquivo PDF contendo o currículo.
-- Restrições: Apenas usuários com a role `candidato` podem enviar currículos.
+- Restrições: Apenas usuários sem a role `candidato` podem enviar currículos.
 
 Exemplo de requisição como `user`:
 
