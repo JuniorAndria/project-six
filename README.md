@@ -48,7 +48,7 @@ A aplicação estará disponível em `http://localhost:5000`.
 
 - Endpoint: `POST /upload_pdf`
 - Descrição: Permite o upload de um arquivo PDF contendo o currículo.
-- Restrições: Apenas usuários sem a role `candidato` podem enviar currículos.
+- Restrições: Usuários com a role `recrutador` não podem enviar currículos
 
 Exemplo de requisição como `user`:
 
